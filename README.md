@@ -16,6 +16,26 @@
    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/7990d0e3-2ca9-4cfc-9131-0924df3760db)
    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/a1fb1cf9-b7b8-42f4-bb9a-a8f5623b04ef)
 
+ ### Monitor EC2 Instance State Changes Using AWS Lambda, Boto3, and SNS.
+ 1. Created SNS. Please find below screenshot.
+    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/8a2c2018-2918-4ae5-9992-d5ebdbd2a9ce)
+
+ 2. Created IAM role.
+      ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/0c916848-0a83-4f55-b791-30616e20b697)
+
+ 3. Created Lambda function.
+    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/83e8c371-251a-4339-85ee-3c65e23337a4)
+
+ 4. Created trigger event bridge.
+    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/48e9296c-03cd-4a74-891f-b846e6a1d3e1)
+
+ 5. Kindly find screenshot for SNS notification about the state change.
+    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/e9db5ff2-5c67-45cc-943e-78666372d1d9)
+   
+   
+    
+
+
    
 
 

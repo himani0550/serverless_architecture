@@ -16,7 +16,7 @@
    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/7990d0e3-2ca9-4cfc-9131-0924df3760db)
    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/a1fb1cf9-b7b8-42f4-bb9a-a8f5623b04ef)
 
- ### Monitor EC2 Instance State Changes Using AWS Lambda, Boto3, and SNS.
+ ### Second Assignment: Monitor EC2 Instance State Changes Using AWS Lambda, Boto3, and SNS.
  1. Created SNS. Please find below screenshot.
     ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/8a2c2018-2918-4ae5-9992-d5ebdbd2a9ce)
 
@@ -25,12 +25,36 @@
 
  3. Created Lambda function.
     ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/83e8c371-251a-4339-85ee-3c65e23337a4)
+    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/daef940c-8239-42cc-bd42-4ce2f7baf122)
 
- 4. Created trigger event bridge.
+ 5. Created trigger event bridge.
     ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/48e9296c-03cd-4a74-891f-b846e6a1d3e1)
 
- 5. Kindly find screenshot for SNS notification about the state change.
+ 6. Kindly find screenshot for SNS notification about the state change.
     ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/e9db5ff2-5c67-45cc-943e-78666372d1d9)
+
+ ### Third assignment: Load Balancer Health Checker.  
+ 1. Created a Lambda function. Kindly find below screenshot for same.
+    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/074b352b-5fc0-49e7-b72b-e181786385ca)
+    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/b0eded74-cdcc-4fc9-a6c0-e0c857e593f0)
+
+ 2. Created ELB and target group. Kindly find below screenshot for same.
+    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/4721b352-22a4-4229-9ac4-f3fbb92d4d2a)
+    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/dc680c58-c626-4d6a-871f-d8eefec1d46b)
+
+ 3. Kindly find below SNS notification for unhealthy instance.
+    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/30642a43-f561-4b6e-a5c9-3db924b78455)
+
+ 4. Set up a CloudWatch event to trigger this Lambda function every 10 minutes.
+    ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/18fd8ab7-46b4-47b7-85e6-3a2abb586e9c)
+  
+   
+
+   
+   
+
+
+    
    
    
     

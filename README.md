@@ -48,7 +48,7 @@
  4. Set up a CloudWatch event to trigger this Lambda function every 10 minutes.
     ![image](https://github.com/himani0550/serverless_architecture/assets/77041503/18fd8ab7-46b4-47b7-85e6-3a2abb586e9c)
 
- ### Sixth assignment: Auto-Tagging EC2 Instances on Launch Using AWS Lambda and Boto3. 
+ ### Fourth assignment: Auto-Tagging EC2 Instances on Launch Using AWS Lambda and Boto3. 
  1. Setup an EC2 instance.
  2. Created IAM role to access lambda.
  3. Created Lambda function. Kindlly find below screenshot.
